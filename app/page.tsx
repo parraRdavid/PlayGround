@@ -19,7 +19,7 @@ export default function Home() {
             <p className="text-gray-500 hidden md:block font-mono">
               {" "}
               Hi, I'm David, and I'm a soon to be graduate of Arizona State
-              University with a BS in Computer Science, Software Engineer!
+              University with a BS in Computer Science, Software Engineer!!!!!
             </p>
           </div>
           <div className="flex-col md:flex-row hidden md:flex bg-cyan-50"></div>
