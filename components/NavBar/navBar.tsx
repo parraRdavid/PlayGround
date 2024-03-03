@@ -7,8 +7,8 @@ const Nav = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-black ">
+      <div className="md:flex items-center justify-between bg-blue-300 py-4 md:px-10 px-7">
+        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-Emerald ">
           David R. Parra
         </div>
         <div className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden ">
@@ -18,7 +18,7 @@ const Nav = () => {
           {navLinks.map((link) => (
             <li className="font-[Poppins] md:ml-8 text-xl md:my-0 my-7">
               <a
-                className="text-black hover:text-red-400 duration-500"
+                className="text-ChineseSilver hover:text-Emerald duration-500"
                 href={link.link}
               >
                 {" "}
