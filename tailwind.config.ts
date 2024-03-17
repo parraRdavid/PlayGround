@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const colors = require('tailwindcss/colors')
 
 const config: Config = {
   content: [
@@ -21,29 +22,13 @@ const config: Config = {
       'roboto-condensed-light': ['Roboto Condensed', 'sans-serif'],
     },
     colors: {
-      'primary': '#565C88',
-      'secondary': '#051821',
-      'third': '#0d0a0d',
-      'contrast-prim': '#1d2b53', //this is the font foor
-      'google-logo': '#ffca36',
-      'wave-color': '#4F547C',
-      'shape-color': '#dec59f',
-      'button-color': '#80839D',
-      'button-stroke': '#ABB1C7',
-      'bgcolor': '#212544',
-      'testColor': '#F1F1EF',
-      'LoginBGColor': '#8A8EAE',
-      'LoginBGColor2': '#D9D9D9',
-      'borderColor': '#121212',
-      'WhiteColor': '#F6F6F6',
-      'DarkGrey': '#191919',
-      'wave-secondary': '#3A3E60',
-      'subtext': '#959595',
-      'whiteBGColor': '#F5F5F5',
-      'bannerColor': '#141414',
-      '': '#41C686',
-      'greyColor': '#2B2828',
-      'wordGradient': '#2B2828',
+      'blue': '#1fb6ff',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
       'buttonColor': '#545AE8',
       'searchButtonColor': '#BCF3FF',
       'searchButtonColor1': '#B8FFEE',
